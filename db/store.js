@@ -23,9 +23,9 @@ class Store{
             try {
                 parsedNotes = [].concat(JSON.parse(notes))
             } catch (error) {
-                parseNotes = [];
+                parsedNotes = [];
             }
-            return parseNotes
+            return parsedNotes
         })
     }
     addNote (note){
